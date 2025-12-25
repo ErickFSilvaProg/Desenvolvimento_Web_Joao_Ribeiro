@@ -1,0 +1,27 @@
+# Arquivos de backup do MySQL
+backup_*
+
+# Arquivos compactados
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.tgz
+*.iso
+
+# Extenções de programas
+*.pptx
+*.docx
+*.xlsx
+*.ppt
+*.doc
+*.xls
+*.exe
+*.msi
+
+# Pasta com conteúdos ignorados
+pasta_ignorada/
+pasta_ignorada/*
