@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com CSS</title>
+    <style>
+        hr {
+            margin-top: 35px;
+            border: 1px solid #000;
+        }
+
+        section {
+            margin: 0;
+            padding: 10px 20px;
+            text-align: center;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #000;
+        }
+        
+        code span {
+            color: seagreen;
+        }
+
+        .p-classe .link {
+            text-decoration: none;
+            color: #00b3b6;
+        }
+
+        .p-classe .link:visited {
+            color: darkslategray
+        }
+
+        .p-classe .link:hover {
+            color: #ade2de;
+        }
+
+        .p-classe .link:active {
+            color: #dbc5a8;
+        }
+
+        .p-elemento::first-line {
+            color: darkorange;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Pseudo-classe de CSS -->
+    <article>
+        <h1>
+            O que é uma Pseudo-classe de CSS?
+        </h1>
+        <p>
+            Palavra-chave adicionada ao seletor que especifica um estado.
+        </p>
+        <p>
+            Exemplo: <br>
+            <strong>Quer visitar o site?</strong> Clique aqui: <a href="#">visitar site</a>
+        </p>
+
+        <p>
+            Exemplo: <code>a:<span>hover</span></code>
+        </p>
+
+        <section>
+            <p class="p-classe">
+                Deseja visitar o site da Google? Clique no link seguinte: <br>
+                <a href="https://google.com" class="link" target="_blank">Link para a Google</a>
+            </p>
+        </section>
+    </article>
+
+    <hr>
+
+    <!-- Pseudo-elemento de CSS -->
+    <article>
+        <h1>
+            O que é uma Pseudo-elemento de CSS?
+        </h1>
+        <p>
+            Palavra-chave adicionada ao seletor que permite dar estilo a uma parte específica de um elemento.
+        </p>
+        <p>
+            Exemplo: <code>p:<span>first-line</span></code>
+        </p>
+
+        <section>
+            <p class="p-elemento">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo impedit porro veniam possimus vero eaque asperiores maiores molestias numquam repellendus, aspernatur facere, ducimus provident aliquam! Repellat reprehenderit autem quis eum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo quibusdam, culpa ratione fugit cupiditate libero magnam eos dicta, autem soluta veritatis blanditiis nulla reiciendis praesentium officia perferendis commodi saepe? Necessitatibus.
+            </p>
+        </section>
+    </article>
+
+</body>
+
+</html>

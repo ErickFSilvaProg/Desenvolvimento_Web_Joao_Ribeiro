@@ -22,5 +22,8 @@
     },
     "python.defaultInterpreterPath": "python",
     "database-client.autoSync": true,
-    "editor.wrapOnEscapedLineFeeds": true
+    "editor.wrapOnEscapedLineFeeds": true,
+    "files.autoSave": "onFocusChange",
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.CustomBrowser": "firefox"
 }
