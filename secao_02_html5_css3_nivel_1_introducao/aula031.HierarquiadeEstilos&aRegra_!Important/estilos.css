@@ -1,0 +1,8 @@
+.estilo {
+    margin: 50px auto;
+    padding: 50px;
+    max-width: 500px;
+    text-align: center;
+    color: white !important;
+    background-color: black;
+}
