@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com CSS</title>
+    <style>
+        article {
+            margin-bottom: 50px;
+            border: 1px solid darkslategray;
+        }
+
+        article section {
+            margin-right: 100px;
+            float: left;
+        }
+
+        .dimensao-fixa {
+            width: 200px;
+            height: 80px;
+            float: left;
+            background-color: blue;
+        }
+
+        .clear-both { clear: both; }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Tipos de unidades em CSS
+        </h1>
+    </header>
+
+    <article>
+        <h2>
+            Unidades Absolutas
+        </h2>
+        <section>
+            <h3>
+                Dimensão fixa, medida exata.
+            </h3>
+            <ul>
+                <li><strong>cm</strong> - Centrímetros</li>
+                <li><strong>mm</strong> - Milímetros</li>
+                <li><strong>in</strong> - Polegadas (inches)</li>
+                <li><strong>px</strong> - Píxeis</li>
+                <li><strong>pt</strong> - Pontos</li>
+                <li><strong>pc</strong> - Picas</li>
+            </ul>
+        </section>
+
+        <section class="dimensao-fixa"></section>
+        <div class="clear-both"></div>
+    </article>
+
+    <div class="clear-both"></div>
+    
+    <article >
+        <h2>
+            Unidades Relativas
+        </h2>
+        <section>
+            <h3>
+                Dimensão relativa, medida relativa.
+            </h3>
+            <ul>
+                <li><strong>em</strong> - Relativo ao tamanho de letra do elemento (3em = 3x o tamanho)</li>
+                <li><strong>ex</strong> - Relativo a x-height da letra atual (pouco usado)</li>
+                <li><strong>ch</strong> - Relativo à largura do zero</li>
+                <li><strong>rem</strong> - Relativo ao tamanho de letra do elemento raíz</li>
+                <li><strong>vw</strong> - Relativo a 1% da largura do <em>viewport*</em></li>
+                <li><strong>vh</strong> - Relativo a 1% da altura do <em>viewport*</em></li>
+                <li><strong>vmin</strong> - Relativo a 1% da dimensão mínima do <em>viewport*</em></li>
+                <li><strong>vmax</strong> - Relativo a 1% da dimensão máxima do <em>viewport*</em></li>
+                <li><strong>%</strong> - Porcentagem relativa ao elemento pai</li>
+            </ul>
+        </section>
+        <div class="clear-both"></div>
+    </article>
+
+</body>
+
+</html>

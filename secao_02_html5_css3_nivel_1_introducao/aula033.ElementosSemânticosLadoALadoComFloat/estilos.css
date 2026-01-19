@@ -1,0 +1,16 @@
+* {
+            margin: 0;
+            padding: 0;
+        }
+
+        .bg-red, .bg-blue {
+            padding: 20px;
+            width: 50%;
+            /* box-sizing: border-box; */
+            color: white;
+        }
+        
+        .bg-red { background-color: darkred; }
+        .bg-blue { background-color: darkblue; }
+        .float-element { float: left; }
+        .clear-both { clear: both; }
