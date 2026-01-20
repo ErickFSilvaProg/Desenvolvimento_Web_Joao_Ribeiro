@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+}
+
+.div-1 {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: 100px;
+    background-color: blue;
+}
+
+.div-2 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+
+.texto-1 { font-size: 1em; }
+.texto-2 { font-size: 1.5em ;}
+.texto-3 { font-size: 1rem; }
