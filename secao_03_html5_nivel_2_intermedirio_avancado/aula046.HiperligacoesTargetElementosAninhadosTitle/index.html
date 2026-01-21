@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>Hiperligações</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- CSS -->
+    <style>
+        a {
+            display: block;
+        }
+
+        .quadro {
+            margin: 20px auto;
+            padding: 30px;
+            width: 678px;
+            border: 2px solid rgb(100, 100, 100);
+            background-color: rgb(255, 254, 235);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <a href="https://www.google.com" target="_self">Abrir no mesmo separador: <code>target="_self"</code></a>
+        <a href="https://www.google.com" target="_blank">Abrir em novo separador: : <code>target="_blank"</code></a>
+
+        <!-- Não usados -->
+        <a href="https://www.google.com" target="_parent">Não usar: <code>target="_parent"</code></a>
+        <a href="https://www.google.com" target="_top">Não usar: <code>target="_top"</code></a>
+    </div>
+    <hr>
+
+    <div>
+        <a href="https://google.com" target="_blank">
+            <img src="../arquivos/google_logo.png" alt="Google">
+        </a>
+    </div>
+
+    <div>
+        <a href="https://google.com" target="_blank">
+            <div class="quadro">
+                <img src="../arquivos/google_logo.png" alt="Google">
+                <h3>
+                    Título
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab porro sapiente repudiandae fugit saepe
+                    quia pariatur in qui, recusandae error?
+                </p>
+            </div>
+        </a>
+    </div>
+
+</body>
+
+</html>

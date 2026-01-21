@@ -9,15 +9,52 @@
     <!-- Icon -->
     <link rel="shortcut icon" href="" type="image/x-icon">
     <!-- Bootstrap 5.3.8 -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
     <!-- CSS -->
-    <link rel="stylesheet" href="">
+    <style>
+        a {
+            margin-bottom: 20px;
+            display: block;
+            font-weight: bold;
+        }
+
+        .link-link:link,
+        .link-link:visited,
+        .link-link:hover,
+        .link-link:active {
+            color: blue;
+        }
+
+        .link-visited:link,
+        .link-visited:visited,
+        .link-visited:hover,
+        .link-visited:active {
+            color: purple;
+        }
+
+        /* .link-hover:link,
+        .link-hover:visited,
+        .link-hover:hover,
+        .link-hover:active {
+            color: black;
+        } */
+
+        .link-active:link,
+        .link-active:visited,
+        .link-active:hover,
+        .link-active:active {
+            color: red;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
-    
+
         <article>
             <h1>
                 Hiperligações
@@ -30,8 +67,45 @@
                 <li>Navegar entre páginas.</li>
                 <li>Navegar no conteúdo da mesma página.</li>
             </ul>
+            <hr>
+
+            <h2>
+                Diferentes cores:
+            </h2>
+
+            <ul>
+                <li> - Link não visitado: <a href="index.html" class="link-link">Hiperligação</a></li>
+                <li> - Link já visitado: <a href="index.html" class="link-visited">Hiperligação</a></li>
+                <li> - Link ativo (sendo clicado): <a href="index.html" class="link-active">Hiperligação</a></li>
+            </ul>
         </article>
-    
+        <hr>
+
+        <article>
+            <!-- Não vai funcionar: -->
+            <a href="www.google.com">Retornará um erro</a>
+            <a href="https://www.google.com">Ir para o Google</a>
+
+            <!-- Imagem ou documento de texto: -->
+            <a href="https://www.sys4soft.com/udemy/imagem.jpg">Link para imagem</a>
+            <a href="https://www.sys4soft.com/udemy/texto.txt">Link para texto</a>
+
+            <!-- Outros recursos: -->
+            <a href="https://www.sys4soft.com/udemy/documento.pdf">Link para PDF</a>
+            <a href="https://www.sys4soft.com/udemy/documento_word.docx">Link para DOCX</a>
+            <a href="https://www.sys4soft.com/udemy/recursos.zip">Link para ZIP</a>
+            
+            <!-- Recurso inexistente: -->
+            <a href="https://www.sys4soft.com/udemy/link_para_infinito">Link para recurso inexistente</a>
+        </article>
+        <hr>
+
+        <article>
+            <!-- Acessando recursos internos: -->
+            <a href="index.html">Index</a>
+            <a href="../../secao_02_html5_css3_nivel_1_introducao/aula037.ExercícioFinalDoMódulo/index.html">Inteligência Artificial</a>
+        </article>
+
     </div>
 </body>
 
