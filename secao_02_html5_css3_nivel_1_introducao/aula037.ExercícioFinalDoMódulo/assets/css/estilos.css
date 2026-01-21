@@ -10,10 +10,12 @@ body {
     color: white;
 }
 
+
 /* -------------------------------- */
 /* Geral */
 .text-center { text-align: center; }
 .margin-top-40 { margin-top: 40px; }
+
 
 /* -------------------------------- */
 .container-cabecalho {
@@ -27,6 +29,7 @@ body {
     font-size: 2em;
     color: #1190ff;
 }
+
 
 /* -------------------------------- */
 .container-navegacao {
@@ -46,11 +49,14 @@ body {
     color: #fff;
 }
 
+
 /* -------------------------------- */
 .container-quem-somos {
     overflow: auto;
     background-color: #05192a;
 }
+
+.container-quem-somos h1 { font-size: 0; }
 
 .container-quem-somos .servico {
     margin: 60px auto;
@@ -80,6 +86,7 @@ body {
     color: #fff;
 }
 
+
 /* -------------------------------- */
 .container-servicos-contatos {
     padding: 80px;
@@ -108,6 +115,7 @@ body {
     color: #000;
     background-color: #fff;
 }
+
 
 /* -------------------------------- */
 .container-servicos {
@@ -145,6 +153,40 @@ body {
     font-size: 16px;
     color: white;
 }
+
+
+/* -------------------------------- */
+.container-contatos {
+    padding: 80px;
+    background-color: #05192a;
+}
+
+.container-contatos h1 {
+    margin-bottom: 20px;
+    font-size: 3em;
+    color: white;
+}
+
+.container-contatos h2 {
+    margin: 0 auto 20px;
+    padding: 20px;
+    width: 40%;
+    border: 1px solid #105088;
+    border-radius: 10px;
+    font-weight: 100;
+    font-size: 1.5em;
+    color: #fff;
+    background-color: #08253f;
+}
+
+.container-contatos .contatos {
+    margin-bottom: 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 2em;
+    color: #00a2ff;
+}
+
 
 /* -------------------------------- */
 footer {
