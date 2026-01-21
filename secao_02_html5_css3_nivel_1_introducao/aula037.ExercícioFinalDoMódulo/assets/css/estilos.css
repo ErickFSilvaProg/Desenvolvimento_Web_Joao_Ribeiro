@@ -110,6 +110,43 @@ body {
 }
 
 /* -------------------------------- */
+.container-servicos {
+    padding: 60px;
+    /* border: 1px dashed #ccc; */
+    overflow: auto;
+    font-size: 1.1em;
+    background-color: #05192a;
+}
+
+.container-servicos h1 {
+    margin-bottom: 20px;
+    /* border: 1px dashed #ccc; */
+    font-size: 3em;
+    color: #fff;
+}
+
+.container-servicos article {
+    margin: 0 auto;
+    max-width: 500px;
+    /* border: 1px dashed #ccc; */
+    /* float: center; */
+}
+
+.container-servicos h2 {
+    padding: 20px 0;
+    /* border: 1px dashed #ccc; */
+    font-size: 20px;
+    color: #2097ff;
+}
+
+.container-servicos li {
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: white;
+}
+
+/* -------------------------------- */
 footer {
     padding: 80px;
     text-align: center;
