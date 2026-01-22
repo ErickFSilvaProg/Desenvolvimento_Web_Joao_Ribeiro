@@ -9,12 +9,55 @@
     <!-- Icon -->
     <link rel="shortcut icon" href="" type="image/x-icon">
     <!-- CSS -->
-    <link rel="stylesheet" href="">
+    <style>
+        a.download {
+            margin-bottom: 20px;
+            display: block;
+            font-size: 2em;
+        }
+
+        a.class-id {
+            margin-bottom: 20px;
+            display: table;
+        }
+
+        .link-css {
+            padding: 3px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #fff;
+            background: blue;
+        }
+
+        .link-css:hover {
+            background-color: rgb(24, 24, 141);
+        }
+
+        #meu-link {
+            color: darkred;
+        }
+
+        #meu-link:hover {
+            color: darkorange;
+        }
+    </style>
 </head>
 
 <body>
     
-    
+    <!-- Este não irá funcionar. Para tal o arquivo precisa estar no mesmo servidor. -->
+    <a href="https://www.sys4soft.com/udemy/texto.txt" download>Descarregar texto</a>
+
+    <!-- Estes irão funcionar -->
+    <a href="../arquivos/texto.txt" class="download" download="NoneDoArquivo">Descarregar texto</a>
+    <a href="../arquivos/google_logo.png" class="download" download="google-logo">Descarregar imagem</a>
+    <a href="../arquivos/google_logo.png" class="download" download="logo do google">
+        <img src="../arquivos/google_logo.png" alt="google_logo" title="logo do google">
+    </a>
+    <hr>
+
+    <a href="https://google.com" class="link-css">Primeiro link</a>
+    <a href="https://google.com" id="meu-link">Segundo link</a>
     
 </body>
 
