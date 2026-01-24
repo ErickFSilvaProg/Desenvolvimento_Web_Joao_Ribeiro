@@ -18,15 +18,15 @@
         }
 
         table {
-            width: 50%;
+            width: 100%;
         }
     </style>
 </head>
 
 <body>
-    
+
     <table>
-        <caption>Título da Tabela</caption>
+        <caption>Título da Tabela 1</caption>
         <thead>
             <tr>
                 <th>Coluna A</th>
@@ -50,11 +50,12 @@
     <hr>
 
     <table>
+        <caption>Cabeçalho da tabela 2</caption>
         <thead>
             <tr>
-                <th colspan="2">Cabeçalho 1</th>
-                <th>Cabeçalho 2</th>
-                <th>Cabeçalho 3</th>
+                <th>Cabeçalho 1</th>
+                <th colspan="2">Cabeçalho unificado</th>
+                <!-- <th>Cabeçalho 3</th> -->
             </tr>
         </thead>
         <tbody>
@@ -70,7 +71,31 @@
             </tr>
         </tbody>
     </table>
-    
+    <hr>
+
+    <table>
+        <caption>Cabeçalho da tabela 3</caption>
+        <thead>
+            <tr>
+                <th>Cabeçalho unificado</th>
+                <!-- <th>Cabeçalho 2</th> -->
+                <th>Cabeçalho 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>L1 C1</td>
+                <td>L1 C2</td>
+                <td rowspan="2">L1 C3</td>
+            </tr>
+            <tr>
+                <td>L2 C1</td>
+                <td>L2 C2</td>
+                <!-- <td>L2 C3</td> -->
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 
 </html>
