@@ -25,5 +25,6 @@
     "editor.wrapOnEscapedLineFeeds": true,
     "files.autoSave": "onFocusChange",
     "liveServer.settings.ChromeDebuggingAttachment": false,
-    "liveServer.settings.CustomBrowser": "firefox"
+    "liveServer.settings.CustomBrowser": "microsoft-edge",
+    "liveServer.settings.donotShowInfoMsg": true
 }

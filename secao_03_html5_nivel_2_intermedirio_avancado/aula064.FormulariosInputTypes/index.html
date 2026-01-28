@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>Formulário</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <!-- Bootstrap 5.3.8 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <style>
+        .form-container {
+            margin: auto;
+            width: 60%;
+        }
+
+        h2 {
+            margin: 20px 0;
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+        }
+
+        .campo {
+            padding: 5px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="form-container">
+            <form action="https://www.sys4soft.com/udemy/forms/index.php" method="post">
+
+                <h2>
+                    Formulário
+                </h2>
+
+                <!-- text -->
+                <div class="form-group">
+                    <input type="text" name="campo_texto" minlength="5" maxlength="20" required
+                        placeholder="Informe seu nome" id="" class="campo">
+                </div>
+
+                <!-- e-mail -->
+                <div class="form-group">
+                    <input type="email" name="campo_email" multiple placeholder="Informe seu e-mail" id=""
+                        class="campo">
+                </div>
+
+                <!-- password -->
+                <div class="form-group">
+                    <input type="password" name="campo_senha" placeholder="Cadastre uma senha" id="" class="campo">
+                </div>
+
+                <!-- number -->
+                <div class="form-group">
+                    <input type="number" name="campo_numero" min="0" max="10" placeholder="Informe um número entre 0 e 10" step="0.01" id="" class="campo">
+                </div>
+
+                <!-- url -->
+                <div class="form-group">
+                    <input type="url" name="campo_url" placeholder="Informe uma url" id="" class="campo">
+                </div>
+
+                <!-- date -->
+                <div class="form-group">
+                    <input type="date" name="campo_date" id="" class="campo">
+                </div>
+
+                <!-- time -->
+                <div class="form-group">
+                    <input type="time" name="campo_time" id="" class="campo">
+                </div>
+
+                <!-- week -->
+                <div class="form-group">
+                    <input type="week" name="campo_week" id="" class="campo">
+                </div>
+
+                <!-- month -->
+                <div class="form-group">
+                    <input type="month" name="campo_month" id="" class="campo">
+                </div>
+
+                <!-- datetime-local -->
+                <div class="form-group">
+                    <input type="datetime-local" name="campo_datetimelocal" id="" class="campo">
+                </div>
+
+                <!-- submit -->
+                <div class="form-group">
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
