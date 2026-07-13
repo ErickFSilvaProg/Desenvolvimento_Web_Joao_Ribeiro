@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0 20px 20px;
+    padding: 20px;
+    border-bottom: 2px solid #4b7e80;
+    background: #f1f8ff;
+}
+
+p {
+    margin: 20px;
+}
