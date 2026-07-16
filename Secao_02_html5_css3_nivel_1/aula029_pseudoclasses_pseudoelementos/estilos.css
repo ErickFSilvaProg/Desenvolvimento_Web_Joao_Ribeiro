@@ -1,0 +1,30 @@
+/* PSEUDO-CLASSE */
+.link:link {
+    text-decoration: none;
+    color: rgb(10, 193, 218);
+    font-size: xx-large;
+}
+
+.link:visited {
+    color: rgb(10, 193, 218);
+}
+
+.link:hover {
+    color: rgb(27, 144, 190);
+}
+
+.link:active {
+    color: rgb(0, 102, 255);
+}
+
+
+/* PSEUDO ELEMENTO */
+/* .pseudo-elemento::first-line {
+    color: brown;
+    font-weight: bold;
+} */
+
+.pseudo-elemento::first-letter {
+    color: brown;
+    font-size: 50px;
+}
