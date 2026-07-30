@@ -14,18 +14,21 @@
 
 <body>
 
+    <!-- HEADER -->
     <header>
         <h1>
             Hiperligações
         </h1>
     </header>
     
+
     <!-- NAV -->
     <?php require "nav.php"; ?>
 
+
+    <!-- HIPERLIGAÇÕES -->
     <section>
-        <!-- Não irá funcionar -->
-        <a href="www.google.com">Ir para o Google</a>
+        <a href="https://google.com" target="_blank">Ir para o Google</a>
     </section>
     
 </body>
