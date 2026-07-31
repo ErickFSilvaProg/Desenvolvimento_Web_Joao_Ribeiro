@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tabelas HTML</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Tabela HTML
+        </h1>
+    </header>
+
+    <table>
+        <caption>Título da tabela</caption>
+
+        <thead><!-- Cabeçalho da tabela -->
+            <tr><!-- Linha -->
+                <th></th>
+                <th colspan="2">Grupo A</th><!-- Coluna/célula -->
+                <th colspan="2">Grupo B</th>
+            </tr>
+        </thead>
+
+        <tbody><!-- Corpo da tabela -->
+            <tr>
+                <th rowspan="3">Categorias</th>
+                <td>Coluna 2 - Linha 2</td>
+                <td>Coluna 3 - Linha 2</td>
+                <td>Coluna 4 - Linha 2</td>
+                <td>Coluna 5 - Linha 2</td>
+            </tr>
+            <tr>
+                <!-- <td>Coluna 1 - Linha 3</td> -->
+                <td>Coluna 2 - Linha 3</td>
+                <td>Coluna 3 - Linha 3</td>
+                <td>Coluna 4 - Linha 3</td>
+                <td>Coluna 5 - Linha 3</td>
+            </tr>
+            <tr>
+                <!-- <td>Coluna 1 - Linha 3</td> -->
+                <td>Coluna 2 - Linha 4</td>
+                <td>Coluna 3 - Linha 4</td>
+                <td>Coluna 4 - Linha 4</td>
+                <td>Coluna 5 - Linha 4</td>
+            </tr>
+        </tbody>
+
+        <tfoot><!-- Rodapé da tabela -->
+            <tr>
+                <td></td>
+                <td colspan="2">Resultado A</td>
+                <td colspan="2">Resultado B</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+
+</html>
