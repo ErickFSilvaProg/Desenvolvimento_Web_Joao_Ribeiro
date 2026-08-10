@@ -10,14 +10,12 @@
     "code-runner.ignoreSelection": true,
     "code-runner.runInTerminal": true,
     "code-runner.executorMap": {
+        "php": "clear ; php",
         "javascript": "clear ; node",
-        "typescript": "clear ; ts-node",
-        "sass": "clear ; sass --style expanded",
-        "scss": "clear ; scss --style expanded"
+        "typescript": "clear ; ts-node"
     },
-	"liveServer.settings.CustomBrowser": "firefox",
+	"liveServer.settings.CustomBrowser": "microsoft-edge",
     "liveServer.settings.donotShowInfoMsg": true,
     "git.autofetch": true,
-    "workbench.colorTheme": "Dark Modern",
-    "explorer.confirmDragAndDrop": false
+    "workbench.colorTheme": "Dark Modern"
 }
