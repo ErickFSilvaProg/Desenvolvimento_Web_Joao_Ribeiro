@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Orbitron";
+    src: url("../fonts/Orbitron/static/Orbitron-Regular.ttf");
+}
+
+
+.nova-letra {
+    font-family: "Orbitron";
+}
