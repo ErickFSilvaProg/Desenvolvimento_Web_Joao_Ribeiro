@@ -1,9 +1,23 @@
 @font-face {
-    font-family: "Orbitron";
-    src: url("../fonts/Orbitron/static/Orbitron-Regular.ttf");
+    font-family: "novaletra";
+    src: url("../fonts/Orbitron/Orbitron-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "novaletra-2";
+    src: url(../fonts/Indie_Flower/IndieFlower-Regular.ttf);
 }
 
 
-.nova-letra {
-    font-family: "Orbitron";
+body {
+    font-size: 1.5em;
+}
+
+
+.novaletra {
+    font-family: "novaletra";
+}
+
+.novaletra-2 {
+    font-family: "novaletra-2";
 }

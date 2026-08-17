@@ -1,0 +1,19 @@
+div {
+    margin: 10px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.espaco-1 {
+    background: linear-gradient(180deg, darkred, yellow);
+}
+
+.espaco-2 {
+    background-image: url(../../imagens/fundo.jpg);
+    background-size: 15%;
+}
+
+.espaco-3 {
+    background-image: url(../../imagens/outro_fundo.jpg);
+    background-repeat: repeat-x;
+}
