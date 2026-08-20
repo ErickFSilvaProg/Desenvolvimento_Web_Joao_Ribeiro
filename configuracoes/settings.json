@@ -14,8 +14,6 @@
         "javascript": "clear ; node",
         "typescript": "clear ; ts-node"
     },
-	"liveServer.settings.CustomBrowser": "microsoft-edge",
-    "liveServer.settings.donotShowInfoMsg": true,
     "git.autofetch": true,
     "workbench.colorTheme": "Dark Modern"
 }
