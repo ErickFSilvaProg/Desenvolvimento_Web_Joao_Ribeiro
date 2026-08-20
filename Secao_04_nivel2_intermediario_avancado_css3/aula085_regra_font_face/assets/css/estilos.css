@@ -8,6 +8,11 @@
     src: url(../fonts/Indie_Flower/IndieFlower-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Cormorant Garamond";
+    src: url(../fonts/Cormorant_Garamond/static/CormorantGaramond-Regular.ttf);
+}
+
 
 body {
     font-size: 1.5em;
@@ -20,4 +25,9 @@ body {
 
 .novaletra-2 {
     font-family: "novaletra-2";
+}
+
+.cormorant-garamond {
+    font-weight: normal;
+    font-family: "Cormorant Garamond";
 }

@@ -10,7 +10,7 @@ div {
 
 .espaco-2 {
     background-image: url(../../imagens/fundo.jpg);
-    background-size: 15%;
+    background-size: contain;
 }
 
 .espaco-3 {
