@@ -11,30 +11,40 @@
 </head>
 
 <body>
-    
+
     <!-- FORMULÁRIO -->
     <form action="" method="post">
+
+        <!-- Cabeçalho -->
         <div class="login-close">
             <button type="button">&times;</button>
         </div>
         <div class="login-title">
             Login Form
         </div>
-        <div>
-            <label for="email">E-mail or Phone</label>
-            <input type="email" name="text_email_phone" id="email">
+
+        <!-- Componentes -->
+        <div class="componentes-form">
+            <div>
+                <label for="email">E-mail or Phone</label>
+                <input type="email" name="text_email_phone" id="email">
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="text_password" id="password">
+            </div>
         </div>
-        <div>
-            <label for="password">Password</label>
-            <input type="password" name="text_password" id="password">
+
+        <!-- Rodapé -->
+        <div class="rodape-form">
+            <a href="index.html">Forgot Password?</a>
+            <input type="submit" value="LOGIN">
+            <p>
+                Not a member? <a href="index.html">Signup Now</a>
+            </p>
         </div>
-        <a href="index.html">Forgot Password?</a>
-        <input type="submit" value="LOGIN">
-        <p>
-            Not a member? <a href="index.html">Signup Now</a>
-        </p>
     </form>
-    
+
 </body>
 
 </html>
