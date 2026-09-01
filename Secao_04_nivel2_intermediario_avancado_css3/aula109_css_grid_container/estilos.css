@@ -21,7 +21,7 @@ section {
 
     /* - Grid template areas */
     grid-template-areas: 
-        "header header header"
+        "header header other"
         "nav nav nav"
         "content content content"
         "footer footer footer"
@@ -30,7 +30,17 @@ section {
 
 .area-1 {
     grid-area: header;
-    background-color: brown;
+    background-color: red;
+}
+
+.area-2 {
+    grid-area: content;
+    background-color: yellow;
+}
+
+.area-3 {
+    grid-area: footer;
+    background-color: green;
 }
 
 div {
