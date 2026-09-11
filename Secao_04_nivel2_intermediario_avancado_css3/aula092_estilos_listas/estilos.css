@@ -1,17 +1,18 @@
-li, dt, dd {
-    line-height: 24px;
-}
-
-.lista-desordenada {
+ul {
     list-style-type: none;
     /* list-style-position: outside; */
-    /* list-style-image: url("../../imagens/icon.png"); */
+    /* list-style-image: url(../../imagens/icon.png); */
 }
 
-.lista-desordenada li {
+ul li {
+    margin-left: -15px;
     padding-left: 15px;
-    background-image: url("../../imagens/icon.png");
-    background-position: 0px 7px;
-    background-size: .6rem .6rem;
+    background-image: url(../../imagens/icon.png);
+    background-position: 0 7px;
+    background-size: 12px;
     background-repeat: no-repeat;
+}
+
+li, dt, dd {
+    line-height: 24px;
 }
