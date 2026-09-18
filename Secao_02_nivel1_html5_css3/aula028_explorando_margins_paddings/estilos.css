@@ -4,9 +4,11 @@
     box-sizing: border-box;
     color: rgb(245, 245, 245);
     font-family: Arial, Helvetica, sans-serif;
-    background-color: darkslategray;
+    background-color: rgb(30, 41, 58);
 }
 
+
+/* *************************************** */
 header {
     margin: 30px 0;
 }
@@ -15,6 +17,8 @@ header h1 {
     text-align: center;
 }
 
+
+/* *************************************** */
 article {
     padding: 0 30px;
 }
@@ -28,5 +32,5 @@ article p {
 }
 
 article p a {
-    color: rgb(144, 173, 173);
+    color: rgb(133, 162, 173);
 }

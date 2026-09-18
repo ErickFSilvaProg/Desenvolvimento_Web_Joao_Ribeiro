@@ -1,3 +1,5 @@
+<?php require "conteudo.php" ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -5,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
+    <title>Elementos</title>
     <!-- CSS -->
     <link rel="stylesheet" href="estilos.css">
 </head>
@@ -18,6 +20,9 @@
         </h1>
     </header>
 
+
+    <!-- ********************************************** 
+    Pseudo-classe -->
     <article class="layout">
         <h2>
             Pseudo-classe:
@@ -33,6 +38,9 @@
         </p>
     </article>
 
+
+    <!-- ********************************************** 
+    Pseudo-elemento -->
     <article class="layout">
         <h2>
             Pseudo-elemento:
@@ -43,8 +51,8 @@
         <p>
             Exemplo: <code>p::first-line</code>
         </p>
-        <p class="letra-destaque linha-destaque texto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime modi deleniti explicabo ipsam fugit cumque, dolores at facere illo ad hic, cupiditate ea tempore commodi praesentium ducimus facilis ab rem? Nemo, quis corrupti! Consequatur non aliquam nihil consequuntur. Ab laudantium nobis illum excepturi amet. Hic quia, nemo accusantium voluptatibus maxime aperiam dolore magni perferendis rerum placeat aliquam cupiditate tenetur maiores!
+        <p class="letra-destaque linha-destaque caixa-texto">
+            <?= $texto ?>
         </p>
     </article>
     
