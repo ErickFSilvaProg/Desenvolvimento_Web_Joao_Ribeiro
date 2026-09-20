@@ -1,6 +1,6 @@
 <?php
 
-require_once "program.php"
+require_once "programa.php"
 
 ?>
 
@@ -19,7 +19,7 @@ require_once "program.php"
 <body>
     
     <section class="layout">
-        <p>Olá, <?= $name ?>!</p>
+        <p>Olá, <?= $nome ?>!</p>
         <a href="https://google.com" class="link">Visitar Google</a>
     </section>
     

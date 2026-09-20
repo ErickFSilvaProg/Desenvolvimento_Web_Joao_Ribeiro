@@ -1,4 +1,4 @@
 <?php
 
 $tituloPagina = "Botão Google";
-$name = "Erick";
+$nome = "Erick";
