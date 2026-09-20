@@ -1,7 +1,5 @@
 <?php
-
 require_once "programa.php"
-
 ?>
 
 <!DOCTYPE html>
@@ -19,8 +17,10 @@ require_once "programa.php"
 <body>
     
     <section class="layout">
-        <p>Olá, <?= $nome ?>!</p>
-        <a href="https://google.com" class="link">Visitar Google</a>
+        <p>
+            Olá, <?= $nome ?>
+        </p>
+        <a href="https://casabezerrademenezes.blog.br" target="_blank" class="link">Casa Bezerra de Menezes</a>
     </section>
     
 </body>
