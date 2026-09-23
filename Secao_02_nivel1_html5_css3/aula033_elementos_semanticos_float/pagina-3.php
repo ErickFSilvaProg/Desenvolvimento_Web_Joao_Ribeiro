@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Página 2</title>
+    <title>Página 3</title>
     <!-- CSS -->
     <link rel="stylesheet" href="estilos.css">
 </head>
@@ -21,22 +21,16 @@
         </p>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pagina-2.html">Página 2</a></li>
-            <li><a href="pagina-3.html">Página 3</a></li>
-        </ul>
-    </nav>
+    <?php require 'nav.php'; ?>
 
     <article>
-        <section class="bg-red float-left">
+        <section class="bg-red float-left padding-20">
             <h2>
                 Conteúdo do elemento um
             </h2>
         </section>
 
-        <section class="bg-blue float-left">
+        <section class="bg-blue float-left padding-20">
             <h2>
                 Conteúdo do elemento dois
             </h2>

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Página 2</title>
     <!-- CSS -->
     <link rel="stylesheet" href="estilos.css">
 </head>
@@ -17,26 +17,20 @@
             Como colocamos elementos semânticos lado a lado?
         </h1>
         <p>
-            Tradicionalmente são colocados em <i>stack</i> vertical.
+            Agora já temos uma <i>stack</i> horizontal.
         </p>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pagina-2.html">Página 2</a></li>
-            <li><a href="pagina-3.html">Página 3</a></li>
-        </ul>
-    </nav>
+    <?php require 'nav.php'; ?>
 
     <article>
-        <section class="bg-red">
+        <section class="bg-red float-left">
             <h2>
                 Conteúdo do elemento um
             </h2>
         </section>
 
-        <section class="bg-blue">
+        <section class="bg-blue float-left">
             <h2>
                 Conteúdo do elemento dois
             </h2>
