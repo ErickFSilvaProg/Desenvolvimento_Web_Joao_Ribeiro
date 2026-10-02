@@ -14,11 +14,11 @@
 <body>
     
     <!-- CABEÇALHO -->
-    
+    <?php include "assets/blocos_paginas/header.php" ?>
 
 
     <!-- NAVEGAÇÃO -->
-    
+    <?php include "assets/blocos_paginas/nav.php" ?>
 
 
     <!-- CONTATOS -->
