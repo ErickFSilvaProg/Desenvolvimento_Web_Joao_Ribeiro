@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Inteligência Artificial</title>
-    <link rel="shortcut icon" href="../../imagens/logo_empresa_favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../../imagens/logo_empresa.png" type="image/png">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/estilos.css">
 </head>
@@ -22,7 +22,7 @@
 
 
     <!-- QUEM SOMOS -->
-    <section>
+    <section id="quem-somos" class="container-quem-somos">
         <h2 class="fonte-zero">
             Quem somos
         </h2>

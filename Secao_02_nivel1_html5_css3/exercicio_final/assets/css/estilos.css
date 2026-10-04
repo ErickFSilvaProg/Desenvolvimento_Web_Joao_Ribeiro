@@ -6,7 +6,7 @@ RESET DOS ELEMENTOS */
 }
 
 body {
-    color: #b3b3b3;
+    color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,6 +16,7 @@ RESETS ESPECÍFICOS */
 .fonte-zero { font-size: 0; }
 .text-center { text-align: center; }
 .margin-top-40 { margin-top: 40px; }
+.borda-visao { border: 1px solid tomato; }
 
 
 /* --------------------------------
@@ -35,12 +36,39 @@ CABEÇALHO */
 
 /* --------------------------------
 NAVEGAÇÃO */
+.container-navegacao {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #06345d;
+}
 
+.container-navegacao a {
+    margin: 0px 30px;
+    text-decoration: none;
+    color: #7cc2ff;
+    font-size: 1.5em;
+}
+
+.container-navegacao a:hover {
+    color: #fff;
+}
 
 
 /* --------------------------------
 QUEM SOMOS */
+.container-quem-somos {
+    overflow: auto;
+    background-color: #05192a;
+}
 
+.container-quem-somos .servicos {
+    margin: 60px auto;
+    padding: 50px;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #061f35;
+}
 
 
 /* --------------------------------
