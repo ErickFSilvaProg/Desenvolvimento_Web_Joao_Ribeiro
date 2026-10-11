@@ -28,26 +28,26 @@
         </h2>
 
         <!-- Inteligência Artificial -->
-        <article>
-            <img src="../../imagens/icon_ai.png" alt="Icone AI" title="Inteligência Artificial">
-            <p>
-                Somos especialistas em <span>Inteligência Artificial (IA)</span><br>
+        <article class="servico">
+            <img src="../../imagens/icon_ai.png" class="icone" alt="Icone AI" title="Inteligência Artificial">
+            <p class="servico-texto">
+                Somos especialistas em <span class="servico-texto-realce">Inteligência Artificial (IA)</span><br>
                 Trabalhamos para encontrar soluções tecnológicamente inteligentes para todas as áreas empresarias.
             </p>
         </article>
 
         <!-- Laboratório moderno -->
-        <article>
-            <img src="../../imagens/icon_lab.png" alt="Icone Lab" title="Laboratório moderno">
-            <p>
+        <article class="servico">
+            <img src="../../imagens/icon_lab.png" class="icone" alt="Icone Lab" title="Laboratório moderno">
+            <p class="servico-texto">
                 Os nossos laboratórios são os mais modernos da atualidade.
             </p>
         </article>
 
         <!-- Programadores experiêntes -->
-        <article>
-            <img src="../../imagens/icon_computer.png" alt="Icone computadores" title="Programadores experientes">
-            <p>
+        <article class="servico">
+            <img src="../../imagens/icon_computer.png" class="icone" alt="Icone computadores" title="Programadores experientes">
+            <p class="servico-texto">
                 Os nossos colaboradores são os técnicos mais experientes do mercado.
             </p>
         </article>
@@ -56,12 +56,12 @@
 
 
     <!-- VER SERVIÇOS OU CONTATOS -->
-    <section>
+    <section class="container-servicos-contatos">
         <h2>
             Obtenha mais informações na área de serviços e contate-nos.
         </h2>
-        <div>
-            <a href="servicos.php">Ver serviços</a>
+        <div class="botoes-servicos-contatos">
+            <a href="servicos.php">Serviços</a>
             <a href="contatos.php">Contatos</a>
         </div>
     </section>
