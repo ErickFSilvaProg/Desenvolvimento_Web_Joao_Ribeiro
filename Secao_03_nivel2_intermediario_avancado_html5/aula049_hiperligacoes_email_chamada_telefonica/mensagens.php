@@ -1,7 +1,11 @@
 <?php
 
-$mensagemZapp = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quo alias est esse ullam sint, minima sed doloremque earum in, numquam iusto! Modi pariatur aperiam accusantium eveniet voluptas doloribus aliquam?";
+$tituloDaPagina = 'Hiperligações';
 
-$tituloEmail = "Lorem ipsum dolor";
+$contaEmail = 'erick_ferreira@outlook.com';
 
-$mensagemEmail = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quo alias est esse ullam sint, minima sed doloremque earum in, numquam iusto!";
+$tituloEmail = 'Solicitação de reunião - Sistemas';
+
+$mensagemEmail = 'Solicito uma reunião para tratarmos sobre o sistema para o setor comercial.';
+
+$mensagemZapp = 'Olá, sou fulano do departamento T.I. da empresa! Em breve estarei atendendo sua solicitação!';
