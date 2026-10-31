@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Index 2</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="assets/estilos.css">
 </head>
 
 <body>
@@ -43,24 +43,24 @@
             <h3>
                 Imagem ou documento de texto
             </h3>
-            <a href="../arquivos/google_logo.png" target="_blank">Link para imagem</a>
-            <a href="../arquivos/arquivo-texto.txt" target="_blank">Link para texto</a>
+            <a href="assets/downloads/google_logo.png" target="_blank">Link para imagem</a>
+            <a href="assets/downloads/arquivo-texto.txt" target="_blank">Link para texto</a>
         </article>
 
         <article>
             <h3>
                 Outros recursos
             </h3>
-            <a href="../arquivos/tabela_eletricista.pdf" target="_blank">Link para PDF</a>
-            <a href="../arquivos/Lorem ipsum.docx" target="_blank">Link para DOCX</a>
-            <a href="../arquivos/tabela_eletricista.zip" target="_blank">Link para ZIP</a>
+            <a href="assets/downloads/arquivo-texto.pdf" target="_blank">Link para PDF</a>
+            <a href="assets/downloads/arquivo-texto.docx" target="_blank">Link para DOCX</a>
+            <a href="assets/downloads/arquivo-texto.zip" target="_blank">Link para ZIP</a>
         </article>
 
         <article>
             <h3>
                 Recurso inexistente
             </h3>
-            <a href="../arquivos/inexistente.gost" target="_blank">Link para recurso inexistente</a>
+            <a href="assets/downloads/inexistente.gost" target="_blank">Link para recurso inexistente</a>
         </article>
         
     </section>

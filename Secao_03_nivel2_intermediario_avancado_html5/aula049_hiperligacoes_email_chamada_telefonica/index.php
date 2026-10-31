@@ -29,15 +29,24 @@
 
         <p>
             Enviar e-mail sem preenchimento:
-            <a href="mailto:<?= $contaEmail ?>">Enviar e-mail</a>
+            <a href="mailto:<?= $contaEmail ?>">
+                Enviar e-mail
+            </a>
         </p>
         <p>
             Enviar e-mail com assunto:
-            <a href="mailto:<?= $contaEmail ?>?subject=<?= $tituloEmail ?>">Enviar e-mail</a>
+            <a href="mailto:<?= $contaEmail ?>
+                     ?subject=<?= $tituloEmail ?>">
+                Enviar e-mail
+            </a>
         </p>
         <p>
             Enviar e-mail com assunto e mensagem: 
-            <a href="mailto:<?= $contaEmail ?>?subject=<?= $tituloEmail ?>&body=<?= $mensagemEmail ?>">Enviar e-mail</a>
+            <a href="mailto:<?= $contaEmail ?>
+                     ?subject=<?= $tituloEmail ?>
+                     &body=<?= $mensagemEmail ?>">
+                Enviar e-mail
+            </a>
         </p>
     </section>
 
@@ -52,15 +61,15 @@
         </p>
 
         <p>
-            ● Ligar via WhatsApp: 
+            ● Mensagem com contato via WhatsApp: 
             <a href="https://wa.me/5587981346719" target="_blank">WhatsApp</a>
         </p>
         <p>
-            ◑ Mensagem pronta via WhatsApp: 
+            ◑ Mensagem pronta com contato via WhatsApp: 
             <a href="https://wa.me/5587981346719?text=<?= $mensagemZapp ?>" target="_blank">WhatsApp com mensagem</a>
         </p>
         <p>
-            ◆ Mensagem pronta via WhatsApp escolhendo o contato: 
+            ◆ Mensagem pronta sem contato via WhatsApp: 
             <a href="https://wa.me/?text=<?= $mensagemZapp ?>" target="_blank">WhatsApp com mensagem</a>
         </p>
     </section>

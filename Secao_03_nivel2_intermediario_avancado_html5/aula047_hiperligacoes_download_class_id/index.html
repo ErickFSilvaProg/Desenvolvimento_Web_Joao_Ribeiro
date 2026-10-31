@@ -7,35 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Atributo Download</title>
     <!-- CSS -->
-    <style>
-        #cabecalho {
-            padding: 30px 0;
-            font-size: 1.2em;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        }
-
-        #navegacao {
-            padding: 30px;
-            font-size: 1.5em;
-            background-color: rgb(255, 242, 222);
-        }
-
-        .lista {
-            padding: 30px;
-            border: 2px solid burlywood;
-        }
-
-        /* Alvo direto nos números da lista */
-        .lista li::marker {
-            color: rgb(2, 129, 129);
-            font-weight: bold;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        .lista a {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/estilos.css">
 </head>
 
 <body>
@@ -58,12 +30,14 @@
         <!-- Nos próximos exemplos os recursos irão funcionar porque estão dentro do mesmo servidor da página/aplicação -->
         <ol class="lista">
             <li>
-                <a href="arquivos/arquivo-texto.txt" download="arquivo_de_texto">Baixar texto</a>
+                <a href="assets/downloads/arquivo-texto.txt" download="arquivo_de_texto">Baixar texto</a>
             </li>
-            <li><a href="arquivos/estudante.jpg" download>Baixar imagem</a></li>
             <li>
-                <a href="arquivos/google_logo.png" download="Logo do Google">
-                    <img src="arquivos/google_logo.png" alt="Logo do Google">
+                <a href="assets/downloads/estudante.jpg" download>Baixar imagem</a>
+            </li>
+            <li>
+                <a href="assets/downloads/google_logo.png" download="Logo do Google">
+                    <img src="assets/downloads/google_logo.png" alt="Logo do Google">
                 </a>
             </li>
         </ol>

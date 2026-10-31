@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Index</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="assets/estilos.css">
 </head>
 
 <body>
